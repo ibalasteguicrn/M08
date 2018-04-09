@@ -1,0 +1,80 @@
+@media (min-width: 769px) {
+      body {background-color: rgba(185, 179, 189, 0.25);
+        margin: 0;
+        padding: 0;}
+
+      {display: none;}
+
+      #cap{width: 100%;
+          height: auto;
+          background-color: rgb(61, 61, 61);
+          color: white;
+          overflow: hidden;
+          padding-bottom: 15px;
+          position: fixed;}
+
+      #llista {width: 90%;
+              margin: 0 auto;
+              padding: 0;
+              display: block;
+              text-align: center;}
+      #llista li {margin: 5px;
+                  width: 20%;
+                  display: inline;
+                  border: solid 1px #FFF;
+                  padding: 5px;}
+
+      #llista li a{
+        color: #FFF;
+        text-decoration: none;
+        }
+
+
+      h1 {text-align: center;
+          margin-top: 0;}
+
+          #burger{
+            display: none;
+          }
+          .checkbox{
+            display: none;
+          }
+
+
+
+      #cos {width: 70%;
+            background-color: rgba(185, 179, 189, 0.25);
+            overflow: hidden;
+            padding-top: 90px;
+            float: left;}
+      #cos ul {margin: 0;
+              padding:0;
+              background-color: red;}
+      #cos ul li {margin: 1.5%;
+                  background-color: rgb(15, 156, 194);
+                  text-align: center;
+                  float: left;
+                  height: 270px;
+                  width: 45%;}
+
+
+      #menu {width: 30%;
+            height: 45%;
+            background-color: rgba(185, 179, 189, 0.25);
+            overflow: hidden;
+            padding-top: 90px}
+      #menu ul {margin: 0;
+              padding:0;}
+      #menu ul li {margin: 10px 13px;
+                  background-color: rgb(72, 216, 247);
+                  text-align: center;
+                  padding: 5px 0 15px 0;
+                  display: block;
+                  height: 20px;}
+
+
+      #peu {height: 50px;
+            background-color: rgb(61, 61, 61);
+            margin: 0;
+            clear: both;}
+      }

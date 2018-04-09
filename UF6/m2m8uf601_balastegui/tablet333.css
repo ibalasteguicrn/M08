@@ -1,0 +1,63 @@
+@media (min-width: 481px) {
+      body {background-color: white;
+        margin: 0;
+        padding: 0;}
+
+      #cap{width: 100%;
+          height: auto;
+          background-color: rgb(61, 61, 61);
+          color: white;
+          overflow: hidden;
+          padding-bottom: 15px;
+          position: fixed;}
+      #cap ul {width: 90%;
+              margin: 0 auto;
+              padding: 0;
+              display: block;
+              text-align: center;}
+      #cap ul li {margin: 5px;
+                  width: 20%;
+                  display: inline;
+                  border: solid 1px #FFF;
+                  padding: 5px;}
+      h1 {text-align: center;
+          margin-top: 0;}
+
+
+      #cos {width: 60%;
+            height: 600px;
+            background-color: rgb(47, 245, 22);
+            overflow: hidden;
+            padding-top: 90px;
+            float: left;}
+      #cos ul {margin: 0;
+              padding:0;
+              width: 100%}
+      #cos ul li {margin: 10px 13px;
+                  border: solid 3px black;
+                  background-color: green;
+                  text-align: center;
+                  display: block;
+                  height: 100px;}
+
+
+      #menu {width: 40%;
+            height: 600px;
+            background-color: green;
+            overflow: hidden;
+            padding-top: 90px}
+      #menu ul {margin: 0;
+              padding:0;
+              width: 100%;}
+      #menu ul li {margin: 10px 13px;
+                  border: solid 3px black;
+                  background-color: rgb(47, 245, 22);
+                  text-align: center;
+                  display: block;
+                  height: 50px;}
+
+
+      #peu {height: 50px;
+            background-color: rgb(61, 61, 61);
+            margin: 0;}
+      }
