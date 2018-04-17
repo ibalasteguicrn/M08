@@ -1,0 +1,5 @@
+#primer{background-color: white; width: 150px; height: 150px; margin: 20px; border: solid 15px red; float: left;}
+#segon{background-color: white; width: 150px; height: 150px; margin: 20px; border: solid 15px blue; float: left;}
+#tercer{background-color: white; width: 150px; height: 150px; margin: 20px; border: solid 15px green; float: left;}
+#quart{background-color: white; width: 150px; height: 150px; margin: 20px; border: solid 15px yellow; float: left;}
+div{font-size: 50px; text-align: center;}

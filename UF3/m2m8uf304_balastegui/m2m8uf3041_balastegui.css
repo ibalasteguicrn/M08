@@ -1,0 +1,39 @@
+body{background-color: rgb(235, 235, 235); margin: 0; padding: 0; font-family: lucida, verdana, sans-serif; font-size: 18px; font-family: 'Averia Libre';}
+#menu{height: 40px; background-color: #FFF; overflow: visible; color: black;}
+#menu ul{float: right; clear: right;}
+#menu li{margin: 10px; display: inline;}
+#primer{background: #333;}
+#primer h1{float: left; width: 30%;}
+#primer #contingut{float:left; width: 30%;}
+#primer ul{float: left; width: 30%;}
+#primer ul li{list-style-type: none;}
+a{text-decoration: none; color: green;}
+a:link{}
+a:visited{color: green;}
+a:hover{background-color: #6C3}
+#segon{height: 550px; background-color: #6C3; background-image: url(img-hero-full-list.png); background-repeat: no-repeat; background-position: 450px;}
+#tercer{height: 641px; background-color: #FFF; background-image: url(allinone.jpg); background-repeat: no-repeat; background-position: 450px;}
+#quart{height: 500px; background-color: #333; background-image: url(curator-short.png); background-repeat: no-repeat; background-position: 450px;}
+#cinque{height: 550px; background-color: #CCC; background-image: url(img-hero-full-list.png); background-repeat: no-repeat; background-position: 450px;}
+#sise{height: 550px; background-color: #6C3; background-image: url(mobile-share.png); background-repeat: no-repeat; background-position: 450px;}
+#sete{height: 643px; background-color: #EEECEE; background-image: url(anywhere.png); background-repeat: no-repeat; background-position: 450px;}
+#vuite{height: 200px; background-color: #333; text-align: center;}
+#vuite img{margin: 10px;}
+.blanc {color: #FFF;}
+.negre {color: #000;}
+div{overflow: hidden; padding: 20px;}
+p{width: 400px;}
+h1{width: 400px; text-align: center; font-size: 30px; line-height: 36px; font-weight: 900;}
+.fa{color:  #6C3; text-shadow: 2px 2px 10px black}
+#benvinguda img{width: 100%; height: auto;}
+.centrat{width: 50%; margin: 0 auto;}
+#benvinguda h1{text-align: left;}
+#benvinguda p{text-align: left; font-size: 16px}
+h3{text-align: center; font-size: 18px; font-weight: 300; margin-top: 50px; margin-bottom: 0px}
+h2{text-align: center; font-size: 36px; font-weight: 900; margin-top: 0px; margin-bottom: 50px}
+#publicacio{background-color: white; width: 100%}
+#boto{width: 150px; height: 20px; text-align: center; background-color: #6C3; margin-bottom: 10px;}
+.grup{width: 25%; height: 200px; margin: 5px; float: left;}
+h4{text-align: left; font-size: 15px;}
+#publicacio p{font-size: 12px; text-align: left; width: 100%; margin: 0 auto;}
+#publicacio .fa{text-shadow: none;}

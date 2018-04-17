@@ -1,0 +1,10 @@
+.centrat{width: 50%; margin: 0 auto;}
+#fons{width: 920px; height: 1420px; background-color: #999}
+#cap{height: 300px; width: 75%; background-color: #CC9; margin-left: 10px; font-family: Times, serif; text-align: center;}
+.alumne{height: 150px; width: 220px; margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px; float: left; background-color: #CCC; text-align: center; align-items: center;}
+#alumne2{background-color: #966;}
+a:hover{background-color: #C99; color: #606}
+a.visited{color: black}
+a{text-decoration: none; color: black}
+img{margin-bottom: 5px}
+#peu{height: 40px; width: 920px; background-color: #CC9; margin-top: 1120px}
