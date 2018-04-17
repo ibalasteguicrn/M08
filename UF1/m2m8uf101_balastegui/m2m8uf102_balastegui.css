@@ -1,0 +1,25 @@
+#cel{background-color: rgb(77, 225, 251); width: 500px; height: 550px; margin: 0 auto; overflow: hidden; animation-name: atardecer; animation-duration: 5s; animation-iteration-count: infinite;}
+@keyframes atardecer {
+  0%{}
+  100%{background-color: black;}
+}
+#cel p{text-align: center; font-size: 30px; padding-top: 100px; font-family: helvetica; color: white;}
+#terra{background-color: rgb(156, 224, 81); width: 500px; height: 250px; margin: 0 auto;}
+#via{background-color: brown; width: 125px; height: 250px; margin: 0 auto; position: relative; top: -100px; left: 0px;}
+#sol{width: 200px; height: 200px; background-color: orange; border-radius: 100px; margin: 0 auto; position: relative; top: -50px; left: 0px; animation-name: sortint; animation-duration: 5s; animation-iteration-count: infinite;}
+@keyframes sortint {
+  0%{top: 400px; transform: scale(0.5);}
+  100%{top: -50px; background-color: blue;}
+}
+#tren{width: 100px; height: 100px; background-color: purple; border-radius: 10px 10px 0 0; margin: 0 auto; position: relative; top: -100px; left: 0px; animation-name: baixa; animation-duration: 5s; animation-iteration-count: infinite; z-index: 2}
+@keyframes baixa {
+  0%{top: -75px; transform: scale(0.5);}
+  100%{top: 115px}
+}
+#cabina{width: 80px; height: 60px; background-color: white; border-radius: 10px 10px 5px 5px; margin-left: 10px;}
+#cabina p{text-align: center; font-size: 15px; padding: 5px 0 0 0;}
+#roda1{width: 25px; height: 35px; background-color: black; float: left; margin-top: 5px; margin-left: 5px; position: relative; top: 35px; left: -25px; z-index: 1; border-radius: 10px 10px 10px 10px;}
+#roda2{width: 25px; height: 35px; background-color: black; float: left; margin-top: 5px; margin-left: 5px; position: relative; top: 0px; left: -5px; z-index: 2; border-radius: 10px 10px 10px 10px;}
+#llum1{width: 30px; height: 30px; border-radius: 50px 50px 50px 50px; background-color: yellow; float: left; margin-top: 5px; margin-left: 5px;}
+#llum2{width: 30px; height: 30px; border-radius: 50px 50px 50px 50px; background-color: yellow; float: right; margin-top: 5px; margin-right: 5px;}
+p{margin: 0; padding: 0;}
